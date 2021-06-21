@@ -25,7 +25,7 @@
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" style="align:left !important;" href="#page-top">
 
-        <img src="logos/TeenB white.png" height="50px">
+        <img src="logos/TeenB white.png" height="45px">
 
 
       </a><button
@@ -36,22 +36,29 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg    -3 rounded js-scroll-trigger"
-              href="#about">About</a></li>
+              href="#about"><h4>About</h4></a></li>
           <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-              href="#portfolio">Our Team</a></li>
+              href="#portfolio"><h4>Our Team</h4></a></li>
           <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-              href="#services">Services</a></li>
+              href="#services"><h4>Services</h4></a></li>
+          <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+              href="https://teenb-89e18.web.app/#/" target="_blank">GET STARTED</a></li> -->
           <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-              href="https://teenb-89e18.web.app/#/" target="_blank">GET STARTED</a></li>
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-              href="Login/index.html">Sign In / Sign Up</a></li>
-          <li class="nav-item mx-0" style="align:right !important">
-            <a target="_blank" class="btn btn-xl btn-outline-light" href="https://teenb-89e18.web.app/#/"><i
-                class="fas fa-download mr-2"></i>Get the App</a>
-          </li>
+              href="Login/login.html"><h4>Sign In / Sign Up</h4></a></li>
+          <!-- <li class="nav-item mx-0" style="align:right !important">
+            <a target="_blank" class="btn btn-xl btn-outline-dark app_get"><i class="fas fa-download mr-2"></i>Get the App</a>
+             <a target="_blank" class="btn btn-xl btn-outline-light" href="https://teenb-89e18.web.app/#/"><i class="fas fa-download mr-2"></i>Get the App</a> -->
+            <!-- <div class="popup">
+              <div class="popup-content">
+                <img src="logos/TeenB.png" alt="logo">
+                <input type="text" placeholder="email" name="email">
+                <input type="text" placeholder="password" name="password">
+              </div>
+            </div>
+          </li> -->
         </ul>
       </div>
-    </div>
+    </div>  
   </nav>
   <!-- Masthead-->
   <header class="masthead bg-primary text-white text-center" style="background-color: deepskyblue">
@@ -61,16 +68,29 @@
       <!--                <span style="padding-top:25px;font-size:125px;padding-bottom:20px" class="masthead-heading text mb-0"><b>TeenB</b></span>-->
       <br>
       <img src="logos/TeenB white.png" height="100px">
-      <p>version 3</p>
+      <p>version 5</p>
       <!-- Icon Divider-->
       <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon"><i class="fas fa-dice-d20	"></i></div>
         <div class="divider-custom-line"></div>
       </div>
-      <div class="text-center mt-4">
-        <a target="_blank" class="btn btn-xl btn-outline-light" href="https://teenb-89e18.web.app/#/"><i
-            class="fas fa-tag" class="mr-1"> </i> Have a beta testing code ? <br>Proceed Now !</a>
+      <div  id="beta_test" class="text-center mt-4 app_get ">
+        <a style="border-radius: 100px;" class="btn btn-xl"><i
+            class="fas fa-download mr-2"  > </i> <b> Have a beta testing code ? <br>Proceed Now !</b>  </a>
+      </div>
+      <div class="popup">
+        <div class="popup-content">
+          <img src="logos/close.jpeg" alt="close" id="close_beta" height="150px">
+          <img class="teenb_logo_popup" src="logos/TeenB.png" alt="logo" height="65px">
+          <br>
+          <br>
+          <!-- <i><h3 style="color: #3EAAFF; padding-top: 5px;">Beta Testing App </h3></i> -->
+          <input type="text" placeholder="Enter Email" name="email">
+          <input type="code" placeholder="Enter Beta Tester Code" name="code">
+          <br>
+          <a href="#" class="app_get">Launch app!</a>
+        </div>
       </div>
       <!-- Masthead Subheading-->
       <!--                <div class="row">-->
@@ -79,7 +99,7 @@
       <!--                        <button type="submit" class="btn"><i class="fa fa-search"></i></button>-->
       <!--                    </form>-->
       <!--                </div>-->
-      <div id="myOverlay" class="overlay">
+      <!-- <div id="myOverlay" class="overlay">
         <span class="closebtn" onclick="closeSearch()" title="Close Overlay"></span>
         <div class="overlay-content">
           <form action="action_page.php">
@@ -87,7 +107,7 @@
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
         </div>
-      </div>
+      </div> -->
     </div>
   </header>
   <!-- About Section-->
@@ -326,7 +346,7 @@
                 <p class="mb-5">Hello There! My name is Hriday Thakkar and I'm the Cheif tecnological officer and one of the Co-Founders of TeenB. I am a
                   self taught software and web developer and have been coding for about 6 years. This website has been developed by me and this has allowed
                   me to showcase my talent in coding and and development . Through research, it came across that teens wanted to showcase their talents and
-                  that is why we have created TeenB. A perfect marketplace to enable teens to learn and earn at the same time with earning money with engaging
+                  that is why we have created TeenB. A perfect marketplace to enable teens to learn and earn at the same time by engaging
                   them in activities to allow them to showcase their talents . </p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close
                   Window</button>
@@ -403,9 +423,7 @@
                 </div>
                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin1.png"
                   alt="" /><!-- Portfolio Modal - Text-->
-                <p class="mb-5">Acedemic tutoring ....Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-                  neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
-                  asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5">Acedemic tutoring ....(description coming soon)</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close
                   Window</button>
               </div>
@@ -440,9 +458,7 @@
                 </div>
                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/game2.png"
                   alt="" /><!-- Portfolio Modal - Text-->
-                <p class="mb-5">Technological Guidance/Support ....Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                  velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5">Technological Guidance/Support ....(description coming soon)</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close
                   Window</button>
               </div>
@@ -476,9 +492,7 @@
                 </div>
                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
                   src="assets/img/portfolio/submarine1.png" alt="" /><!-- Portfolio Modal - Text-->
-                <p class="mb-5">Odd Jobs ....Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                  assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores,
-                  vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5">Odd Jobs .... (description coming soon).</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close
                   Window</button>
               </div>
@@ -526,6 +540,26 @@
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
   </script>
+
+<script>
+  function lockscroll(){
+    window.scrollTo(0,0);
+  }
+  document.querySelector(".popup").style.display = "none";
+  document.getElementById("beta_test").addEventListener("click",function(){
+    console.log("opening");
+    window.scrollTo(0,0);
+    console.log(document.querySelector(".popup-content").style)
+    document.querySelector(".popup").style.display = "flex";
+    document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+  })  
+  document.getElementById("close_beta").addEventListener("click",function(){
+    console.log("CLOSING");
+    document.querySelector(".popup").style.display = "none";
+    document.getElementsByTagName('body')[0].style.overflow = 'visible';
+  })
+  
+</script>
 </body>
 
 </html>

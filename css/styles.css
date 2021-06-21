@@ -2419,7 +2419,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #03a5fc;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -10213,3 +10213,80 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a252f;
 }
 
+/* .app_get {
+  background-color: #ffffff;
+}
+.app_get.hover{
+background: #03a5fc; !important
+}*/
+
+.popup{
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;  
+}
+
+.popup-content{
+
+  height:400px;
+  width: 750px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  border-radius: 50px;
+
+} 
+
+.app_get{
+  background: #ffffff;
+  color: #42adf5;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+  margin-top: 45px;
+  text-decoration:none;
+  transition: 0.1s;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+.app_get:hover{
+  background-color: #42adf5;
+  color: #ffffff;
+  text-decoration:none;
+  border-color: #ffffff;
+  
+}
+
+.teenb_logo_popup{
+  margin-top: 40px;
+  text-align: center;
+}
+
+input{
+  margin: 20px auto;
+  display: block;
+  width:50%;
+  padding: 8px;
+  border:1px solid #42adf5;
+  border-radius: 12px;
+  text-align:center;
+
+}
+#close_beta{
+  position: absolute;
+  top:15px;
+  right: 15px;
+  background:#ffffff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
